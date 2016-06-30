@@ -1,0 +1,48 @@
+
+/* selector universal */
+*{
+	background: peru;
+	margin: 10px
+}
+
+/* selector de etiquetas */
+header{
+	background: lightblue;
+	text-align: left;
+	border: 2px solid green;
+	border-radius: 120;
+}
+
+nav {
+	text-align: right;
+	margin: 1
+}
+
+section {
+	background: purple;
+}
+
+/* selector descendente */
+article h3 {
+	font-size: 70px
+}
+
+article li{
+	color: white;
+}
+
+/* selector de clase */
+.title-a{
+	color: yellow;
+	text-align: center;
+}
+
+.title-b{
+	color: salmon;
+	text-align: right;
+}
+
+/* selector de id*/
+#guitarras {
+	background-color: brown;
+}
