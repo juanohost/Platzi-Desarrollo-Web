@@ -5,17 +5,29 @@
 
 }
 
+*{
+	padding: 10px;
+	margin:  auto;
+	border: 2px solid blue;
+}
+
+.portada{
+	width: 800px;
+}
+
 .portada h1{
 	font-size: 74px
 }
 
 .prtada h3{
-	font-size: 24px
+	font-size: 24px;
+	margin: auto;
 }
 
 .menu{
 	font-size: 24px;
 	display: inline-block;
+	margin-left: 300px;
 }
 
 .menu li{
@@ -24,4 +36,6 @@
 
 .logotipo{
 	display: inline-block;
+	margin-left: 200px;
+	margin-top: 100px;
 }
